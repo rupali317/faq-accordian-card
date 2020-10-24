@@ -82,8 +82,5 @@ div#images {
     color: #787887;
     margin-bottom:10px;
     display:none;
-}
-
-#question-1:checked {
-    color: #1d1e35;
+    line-height:1.6;
 }
