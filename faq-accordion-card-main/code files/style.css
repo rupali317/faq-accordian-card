@@ -1,72 +1,89 @@
-html {
-    font-family:'Kumbh Sans';
-    background-image: linear-gradient(#AB92BF, #6565E7);
-    background-repeat:no-repeat;
-    font-size:12px;
-}
-
 body {
-    text-align:-webkit-center;
-}
-
-* {
-    box-sizing:border-box;
+    background-image: linear-gradient(	#af67e9,#6565e7);
+    background-repeat:no-repeat;
+    font-family:'Kumbh Sans';
+    font-size:12px;
+    font-weight:400;
 }
 
 .card {
-    background-image: url("../images/bg-pattern-desktop.svg");
-    background-color:white;
-    width: 800px;
-    height:450px;
+    background-color: #fff;
     border-radius:20px;
-    align-items: center;
-    box-shadow: 0px 10px 10px 0 rgba(0,0,0,0.3);
-    display:flex;
-    text-align: initial;
-    margin:40px;
+    margin:150px 20px;
+}
+
+.center {
+    margin:0 auto;
+    display:block;
 }
 
 #woman {
-    position: relative;
-    top:50px;
-    right:75px;
+    width: 74%;
+    position:relative;
+    bottom: 108px;
 }
 
 #box {
+    width: 33%;
     position: relative;
-    bottom: 170px;
-    right: 96px;
-
+    bottom: 224px;
+    left:29px;
 }
 
-.image {
-    position:relative;
-    top:30px;
+div.image-section{
+    background-image:url('../images/bg-pattern-mobile.svg');
+    background-repeat:no-repeat;
+    position: relative;
+    left:40px;
+}
+
+div#images {
+    position: relative;
+    right:40px;
 }
 
 .heading {
-    color: 	#1d1e35;
-    font-size: 200%;
     font-weight:700;
+    font-size:200%;
+    text-align:center;
+}
+
+.content-section {
+    position:relative;
+    bottom:150px;
 }
 
 .section {
-    margin-top:16px;
-
+    margin-top:30px;
+    padding:0 20px;
 }
 
-.section:first-child {
-    margin-top:32px;
+.question-answer {
+    border-bottom:1.5px solid #e7e7e9;
+    margin-bottom:15px;
 }
 
-.card > div:last-child {
-    margin-right: 50px;
+.question-section {
+    margin-bottom:10px;
+    color: 	#4a4b5e;
+}
+
+.question-section:hover {
+    color:#f47c57;
+    cursor:pointer;
 }
 
 .question {
-
+    display:inline-block;
+    width:calc(100% - 20px);
 }
 
 .answer {
+    color: #787887;
+    margin-bottom:10px;
+    display:none;
+}
 
+#question-1:checked {
+    color: #1d1e35;
 }
