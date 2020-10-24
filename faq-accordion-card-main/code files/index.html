@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh Sans">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">  
+    <script src="scripts.js"></script>
     <title>Frontend Mentor | FAQ Accordion Card</title>
   </head>
 
@@ -26,39 +27,39 @@
           <div class="heading">FAQ</div>
           <div class="section">
             <div class="question-answer">
-              <div class="question-section">
-                <div id="question-1" class="question">How many team members can I invite?</div>
-                <img id="arrow-1" class="arrow" src="../images/icon-arrow-down.svg">
+              <div id="qs-1" class="question-section" onclick="toggleStates('qs-1')">
+                <div class="question">How many team members can I invite?</div>
+                <img class="arrow" src="../images/icon-arrow-down.svg">
               </div>  
               <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
                   team members for the Premium plan.</div>
             </div>
             <div class="question-answer">
-              <div class="question-section">
+              <div id="qs-2" class="question-section" onclick="toggleStates('qs-2')">
                 <div class="question">What is the maximum file upload size?</div>
-                <img id="arrow-2" class="arrow" src="../images/icon-arrow-down.svg">
+                <img  class="arrow" src="../images/icon-arrow-down.svg">
               </div>
               <div class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</div>
             </div> 
             <div class="question-answer">
-              <div class="question-section">
+              <div id="qs-3" class="question-section" onclick="toggleStates('qs-3')">
                 <div class="question">How do I reset my password?</div>
-                <img id="arrow-3" class="arrow" src="../images/icon-arrow-down.svg">
+                <img id="arrow" class="arrow" src="../images/icon-arrow-down.svg">
               </div>
               <div class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
                   A reset link will be emailed to you.</div>
             </div>   
-            <div class="question-answer">
-              <div class="question-section">
+            <div class="question-answer" onclick="toggleStates('qs-4')">
+              <div id="qs-4" class="question-section">
                 <div class="question">Can I cancel my subscription?</div>
-                <img id="arrow-4" class="arrow" src="../images/icon-arrow-down.svg">
+                <img id="arrow" class="arrow" src="../images/icon-arrow-down.svg">
               </div>
               <div class="answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
             </div>
             <div class="question-answer">
-              <div class="question-section">
+              <div id="qs-5" class="question-section" onclick="toggleStates('qs-5')">
                 <div class="question">Do you provide additional support?</div>
-                <img id="arrow-5" class="arrow" src="../images/icon-arrow-down.svg">
+                <img id="arrow" class="arrow" src="../images/icon-arrow-down.svg">
               </div>
               <div class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
             </div>
