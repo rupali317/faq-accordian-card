@@ -22,6 +22,10 @@ body {
     width: 74%;
     position:relative;
     bottom: 108px;
+    background-image:url(../images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:200px;
 }
 
 #box {
@@ -92,7 +96,7 @@ div#images {
         width: 1280px;
         background-image:url(../images/bg-pattern-desktop.svg);
         background-repeat:no-repeat;
-        background-position:-150% 60%;
+        background-position:-565px -147px;
     }
 
     body {
@@ -112,13 +116,19 @@ div#images {
     }
 
     #box {
-        position:static;
-        background-image:url(../images/illustration-box-desktop.svg);
+        position: relative;
+        bottom: 23px;
+        left: -70px;
+        width: 27%;
     }
 
     #woman {
-        position:static;
-        background-image:url(../images/illustration-woman-online-desktop.svg);
+        position:relative;     
+        background-position:-48px;
+        width: 444px;
+        height:358px; 
+        top: 200px;
+        right:78px;
     }
 
     .content-section {
