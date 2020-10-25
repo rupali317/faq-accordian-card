@@ -9,7 +9,8 @@ body {
 .card {
     background-color: #fff;
     border-radius:20px;
-    margin:150px 20px;
+    margin:150px auto;
+    width: 300px;
 }
 
 .center {
@@ -34,12 +35,13 @@ div.image-section{
     background-image:url('../images/bg-pattern-mobile.svg');
     background-repeat:no-repeat;
     position: relative;
-    left:40px;
+    left:12%;
 }
 
 div#images {
     position: relative;
-    right:40px;
+    right:12%;
+    top:9px;
 }
 
 .heading {
